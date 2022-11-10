@@ -30,7 +30,7 @@ int _setenv(char *name, char *value, node **env)
  *
  * @name: the name of the variable
  * @env: the environment
- * Return: 0 if successful
+ * Return: 0 if successful.
  */
 int _unsetenv(char *name, node **env)
 {
